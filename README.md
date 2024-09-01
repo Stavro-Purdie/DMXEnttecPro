@@ -1,3 +1,7 @@
+## NOTE:
+This is a fork of the original DMXEnttecPro repo, All credits go to the author of that repo.
+This repo serves as a testing repo for me personally to try and allow end users to manually enter in values up to 44Hz (instead of 40Hz)
+
 # DMXEnttecPro
 Control the Enttec DMX USB Pro with Python3
 

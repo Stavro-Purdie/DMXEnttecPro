@@ -132,8 +132,8 @@ class Controller(object):
             raise ValueError("output_break_time must be between 9 and 127")
         if not (1 <= mab_time <= 127):
             raise ValueError("mab_time must be between 1 and 127")
-        if not (0 <= output_rate <= 40):
-            raise ValueError("output_rate must be between 0 and 40")
+        if not (0 <= output_rate <= 44):
+            raise ValueError("output_rate must be between 0 and 44 /nPlease refer to the github for more info /n 0 is a special value that runs the dmx adapter as fast as possible /n 1-44 in Hz relates to the respective speed in Hz /n The mathematical relationship for a base send rate is '1,000,000 / (140 + (44 * UNIVERSE_SIZE))'")
         udb_len = len(user_defined_bytes)
         msg = (
             self._signal_start
